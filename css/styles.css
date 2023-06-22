@@ -98,10 +98,68 @@ button {
 
 /* -----SECTION_01----- */
 .hero {
+  background-image: url(../images/image-hero.jpg);
+  padding-top: 142px;
+  padding-bottom: 271px;
 }
 .hero-title {
+  color: var(--white-color);
+  text-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+  font-size: 132px;
+  font-family: Average;
+  line-height: 1.06;
+  width: 497px;
+  margin-bottom: 18px;
 }
 .hero-text {
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.503px;
+  width: 497px;
+  margin-bottom: 58px;
 }
 .hero-btn {
+  color: #fff;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24.162px;
+  letter-spacing: 0.503px;
+  width: 221px;
+  height: 50px;
+  border-radius: 30px;
+  border: 0px solid #966e44;
+  background-color: #966e44;
+  box-shadow: 8px 4px 20px 0px #fff;
+  display: block;
+  padding: 12px 13px;
+}
+.hero-btn:hover,
+.header-btn: focus {
+  color: ;
+  background-color: ;
+}
+/* -----SECTION_02----- */
+.advantages {
+}
+.container {
+}
+.second-title {
+  color: #0f0f0f;
+  font-size: 48px;
+  line-height: 48px;
+}
+.advantages-list-container {
+  display: flex;
+}
+.advantages-list {
+}
+.advantages-list-item {
+}
+.advantages-list-text {
+  color: var(--black-color);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
