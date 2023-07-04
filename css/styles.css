@@ -375,7 +375,7 @@ button {
 }
 .footer-item {
   margin-bottom: 12px;
-  color: var(--black-color);
+  /* color: var(--black-color); */
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
