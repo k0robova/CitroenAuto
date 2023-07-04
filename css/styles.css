@@ -189,6 +189,7 @@ button {
 
 .description-list {
   display: flex;
+  gap: 80px;
 }
 .description-interior {
   display: flex;
@@ -212,13 +213,64 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.503px;
-  width: 100%;
+  /* width: 100%; */
+  width: 580px;
   height: 100%;
   padding-top: 10px;
 }
 /* ------SECTION_04------- */
 .section-four {
   padding-top: 117px;
+}
+.technical {
+  display: flex;
+  margin-top: 65px;
+}
+.characteristics {
+  display: flex;
+  justify-content: space-between;
+  width: 547px;
+}
+.characteristics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+.characteristics-item {
+  color: var(--black-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.503px;
+  position: relative;
+}
+.characteristics-item::after {
+  content: "";
+  position: absolute;
+  width: 547px;
+  height: 1px;
+  display: block;
+  background-color: var(--black-color);
+}
+.characteristics-numbers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+.characteristics-numbers-item {
+  color: var(--black-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.503px;
+}
+.characteristics-btn {
+  width: 296px;
+  height: 55px;
+  color: var(--white-color);
+  border-radius: 8.054px;
+  background-color: #966e44;
+  border: none;
 }
 
 /* ------SECTION_05------- */
@@ -383,16 +435,34 @@ button {
 }
 .modal-send-btn {
   width: 412px;
-  padding: 16.108px 80.541px;
+  padding: 16px 80px;
   justify-content: center;
   align-items: center;
-  border-radius: 8.054px;
+  border-radius: 8px;
   background-color: #966e44;
   border: none;
   margin-top: 40px;
   color: var(--white-color);
 }
-
+.security {
+  color: var(--black-color);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  margin-top: 37px;
+  text-align: center;
+}
+.footer-address {
+}
+.footer-text-line {
+  color: var(--black-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.503px;
+  margin-top: 180px;
+  margin-bottom: 10px;
+}
 .address {
 }
 .address-list {
@@ -402,15 +472,28 @@ button {
 .address-item {
 }
 .address-link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.503px;
+  font-style: normal;
 }
 
 .footer-icons-container {
 }
 .footer-subtitle {
+  margin-top: 45px;
 }
 .footer-media-list {
+  display: flex;
+  gap: 20px;
 }
 .footer-link {
 }
 .footer-icons {
+  /* stroke: var(--black-color); */
+  fill: var(--black-color);
+  fill: #000;
+  margin-top: 40px;
 }
