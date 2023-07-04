@@ -382,6 +382,7 @@ button {
   letter-spacing: 0.503px;
 }
 .footer-item-link {
+  color: var(--black-color);
 }
 .footer-form {
   width: 449px;
