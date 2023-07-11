@@ -225,11 +225,17 @@ button {
 .technical {
   display: flex;
   margin-top: 65px;
+  gap: 80px;
 }
 .characteristics {
   display: flex;
-  justify-content: space-between;
+
   width: 547px;
+  flex-direction: column;
+}
+.commun-lists {
+  display: flex;
+  justify-content: space-between;
 }
 .characteristics-list {
   display: flex;
@@ -271,6 +277,9 @@ button {
   border-radius: 8.054px;
   background-color: #966e44;
   border: none;
+  margin-top: 52px;
+  /* display: block;
+  margin: 0 auto; */
 }
 
 /* ------SECTION_05------- */
